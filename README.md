@@ -13,7 +13,7 @@ Adalah sebuah website untuk para penulis di luar sana, baik pemula maupun profes
 
 Menanggapi klien untuk diciptakannya website LYRA, warna utama sebagai identitas produk adalah cyan. Kemudian demi melancarkan tujuan utama yaitu meningkatkan minat baca, desain tampilan secara umum didominasi dengan tone yang gelap dan warna font putih untuk memudahkan para pembaca dalam membaca dan kenyamanan saat membaca karena di depan layar digital. Sehingga dengan kenyamanan yang disediakan bisa membuat para pembaca bertahan lebih lama dalam menikmati karya sastra yang disediakan.
 
-##Desain rapi mengikuti kaidah atau prinsip desain
+## DESAIN
 - Logo
   - Logo berupa logotype sederhana dengan modifikasi kecil pada huruf "L" dan "Y". Merujuk pada gambar 'Lyra logotype' bisa dilihat bahwa spasi diantara kedua huruf tersebut membentuk siluet buku yang setengah terbuka atau laptop yang setengah terbuka tergantung interpretasi masing-masing individu. Ini mengisyaratkan di masa serba digital ini bahwa membaca tidak hanya melalui buku yang terlalu pakem, bahan bacaan bisa di dapat dari mana saja namun buku tetaplah penting sebagai sumber utama ilmu pengetahuan.
   - Warna logo menyesuaikan dengan identitas brand yaitu cyan. Warna yang cukup terang dan mencolok, serta cukup kontras dengan tampilan produk secara keseluruhan yaitu abu-abu gelap.
@@ -46,3 +46,9 @@ Menanggapi klien untuk diciptakannya website LYRA, warna utama sebagai identitas
 >Tampilan profil dan postingan
 
   - `right-bar` merupakan bar utilitas yang hanya muncul untuk halaman utama atau "Beranda". Berisi menu "Category" dan "Tag" dengan opsi di dalamnya untuk memfilter konten yang ada di "Beranda". Merujuk pada gif 'Tampilan profil dan postingan' pada tampilan profil pengguna dan postingan bisa dilihat bahwa `right-bar` dihilangkan.
+
+## WEBSITE RESPONSIVE
+## DIRECT FEEDBACK
+- Klik "BACA" mengarahkan pengguna ke laman baru
+- Berbagai tombol dan fitur yang belum bisa kemduian alert
+## WEBSITER DINAMIS
