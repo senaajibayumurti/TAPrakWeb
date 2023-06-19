@@ -14,7 +14,7 @@ Menanggapi klien untuk diciptakannya website LYRA, warna utama sebagai identitas
 
 ##Desain rapi mengikuti kaidah atau prinsip desain
 - Logo
--- Testing
+- - test
 - Font
 - Warna
 - Layout
