@@ -28,6 +28,5 @@ Menanggapi klien untuk diciptakannya website LYRA, warna utama sebagai identitas
   - ```:root{
     --abu1:#131313;
     --abu2:#0a0a0a;
-    --abu3:#0a0a0a80;
-}```
+    --abu3:#0a0a0a80;}
 - Layout
