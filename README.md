@@ -6,7 +6,7 @@
 >
 >Lyra logotype
 
-Adalah sebuah website untuk para penulis di luar sana, baik pemula maupun profesional. Setiap karya sastra tulis dibagikan kepada semua pengguna LYRA dengan harapan meningkatkan minat baca ke semua orang. Setiap pengguna bisa merespon setiap karya dengan menekan tombol Like, berkomentar pada kolom Comment, membagikan literatur dengan fitur Share ataupun menyimpan tulisan di dalam Bookmark masing-masing. Di sini lah kalian bisa memulai untuk menulis.
+Adalah sebuah website untuk para penulis di luar sana, baik pemula maupun profesional. Setiap karya sastra tulis dibagikan kepada semua pengguna LYRA dengan harapan meningkatkan minat baca ke semua orang. Setiap pengguna bisa merespon setiap karya dengan menekan tombol "Like", berkomentar pada kolom "Comment", membagikan literatur dengan fitur "Share" ataupun menyimpan tulisan di dalam "Bookmark" masing-masing. Di sini lah kalian bisa memulai untuk menulis.
 >![LYRA_homePage](https://github.com/senaajibayumurti/UASPPW1_22-505018-SV-21751_LYRA-Literary-Realm/assets/110106706/af77bbfb-effb-4ffc-b3d7-9444d1d3c91c)
 >
 >Preview LYRA
@@ -30,5 +30,19 @@ Menanggapi klien untuk diciptakannya website LYRA, warna utama sebagai identitas
     --abu1:#131313;
     --abu2:#0a0a0a;
     --abu3:#0a0a0a80;
-    }```
+    }
+    ```
 - Layout
+  - Layout pada dasarnya tidak terlalu banyak visualisasi yang cukup ilustratif bertujuan agar pengguna tidak terlalu terganggu dengan tampilan website sehingga bisa fokus dan nyaman dalam membaca.
+  - Layout pada halaman utama atau "Beranda" dibagi menjadi tiga bagian utama yaitu ada `left-bar`, `mid-bar`, dan `right-bar`. 
+>![Web capture_20-6-2023_12538_localhost](https://github.com/senaajibayumurti/UASPPW1_22-505018-SV-21751_LYRA-Literary-Realm/assets/110106706/7220de96-1152-4869-9111-17e17c84aac8)
+>
+>Halaman utama
+
+  - `left-bar` merupakan side bar berisikan tombol-tombol navigasi berbagai menu beserta penempatan logo.
+  - `mid-bar` sebagai bagian tengah halaman merupakan bagian utama untuk menampilkan "feed" berisikan semua unggahan para pengguna. Penempatan "feed" yang berada di tengah bertujuan menyesuaikan fokus utama mata pengguna dalam melihat layar
+>![LYRA_postPage](https://github.com/senaajibayumurti/UASPPW1_22-505018-SV-21751_LYRA-Literary-Realm/assets/110106706/17849daf-d6ff-4540-b757-e1904b7444d1)
+>
+>Tampilan profil dan postingan
+
+  - `right-bar` merupakan bar utilitas yang hanya muncul untuk halaman utama atau "Beranda". Berisi menu "Category" dan "Tag" dengan opsi di dalamnya untuk memfilter konten yang ada di "Beranda". Merujuk pada gif 'Tampilan profil dan postingan' pada tampilan profil pengguna dan postingan bisa dilihat bahwa `right-bar` dihilangkan.
