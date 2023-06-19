@@ -79,9 +79,19 @@ body {
 #text-btn{
     padding-left: 5%;
 }
-
 #hidden-menu{
     display: none;
+}
+#third-row{
+    position: fixed;
+    width: 10%;
+    bottom: 0;
+}
+#about li{
+    border-right: 2px dotted white;
+}
+#about a{
+    padding: 0 8px;
 }
 
 /* KONTEN UTAMA YANG MENAMPILKAN TULISAN PENGGUNA */
@@ -141,7 +151,7 @@ body {
     z-index: 0;
 }
 #description-bar #read-btn{
-    width: 300px;
+    width: 40%;
     height: 50px;
     color: white;
     margin: 5%;

@@ -81,6 +81,28 @@
                         </li>
                     </ul>
                 </div>
+                <div id="third-row">
+                    <ul id="about" class="nav d-flex flex-row justify-content-start">
+                        <li id="Tentang" class="nav-item">
+                            <a class="nav-link" href="#">Tentang Kami</a>
+                        </li>
+                        <li id="Privasi" class="nav-item">
+                            <a class="nav-link" href="#">Privasi</a>
+                        </li>
+                        <li id="Ketentuan" class="nav-item">
+                            <a class="nav-link" href="#">Ketentuan</a>
+                        </li>
+                        <li id="Bisnis" class="nav-item">
+                            <a class="nav-link" href="#">Bisnis</a>
+                        </li>
+                        <li id="Laporkan" class="nav-item">
+                            <a class="nav-link" href="#">Laporkan</a>
+                        </li>
+                        <li id="Bantuan" class="nav-item">
+                            <a class="nav-link" href="#">Bantuan</a>
+                        </li>
+                    </ul>
+                </div>
             </div>
 
             <!-- KONTEN UTAMA YANG MENAMPILKAN TULISAN PENGGUNA -->

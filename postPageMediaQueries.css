@@ -39,7 +39,7 @@
     }
     #navbar #btn-beranda{
         border-radius: 10px 10px 0 0;
-        background-color: var(--abu2);
+        background-color: var(--abu1);
     }
     #navbar .nav-link div{
         margin: auto;
@@ -49,6 +49,9 @@
     }
     #hidden-menu{
         display:block;
+    }
+    #third-row{
+        display: none;
     }
 
     /* KONTEN UTAMA YANG MENAMPILKAN TULISAN PENGGUNA */

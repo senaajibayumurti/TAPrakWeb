@@ -39,6 +39,10 @@
     }
     #navbar #btn-beranda{
         border-radius: 10px 10px 0 0;
+        background-color: var(--abu1);
+    }
+    #navbar #btn-profil{
+        border-radius: 10px 10px 0 0;
         background-color: var(--abu2);
     }
     #navbar .nav-link div{
@@ -49,6 +53,9 @@
     }
     #hidden-menu{
         display:block;
+    }
+    #third-row{
+        display: none;
     }
 
     /* KONTEN UTAMA YANG MENAMPILKAN TULISAN PENGGUNA */

@@ -88,6 +88,17 @@ body {
     display: none;
 }
 
+#third-row{
+    position: fixed;
+    width: 10%;
+    bottom: 0;
+}
+#about li{
+    border-right: 2px dotted white;
+}
+#about a{
+    padding: 0 8px;
+}
 /* KONTEN UTAMA YANG MENAMPILKAN TULISAN PENGGUNA */
 #mid-bar{
     overflow-y: scroll;
@@ -155,7 +166,7 @@ body {
     align-items: center;
     font-size: large;
     font-weight: bold;
-    text-align: center;
+    text-align: justify;
     width: 100%;
     height: auto;
     padding: 0 100px 0 100px;
