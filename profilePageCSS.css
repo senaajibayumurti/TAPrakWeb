@@ -1,0 +1,183 @@
+:root{
+    --abu1:#131313;
+    --abu2:#0a0a0a;
+    --abu3:#0a0a0a80;
+}
+/*MENGATUR LINK*/
+a:link{
+    color: white;
+}
+.link:hover{
+    color: cyan;
+    text-decoration: none;
+}
+.nav-link:hover{
+    color: cyan;
+}
+*{
+    font-family: 'bahnschrift';
+    color: white;
+}
+@font-face {
+    font-family:'bahnschrift';
+    src: url('Font/bahnschrift.ttf');
+}
+body {
+    background-color: var(--abu1);
+}
+#primary-panel{
+    background-color: var(--abu1);
+}
+#main-row{
+    background-color: var(--abu1);
+}
+
+/* MENGATUR KIRI DAN KANAN*/
+#left-bar, #right-bar {
+    position: sticky;
+    top: 0;
+    height: auto;
+    padding: 8px 10px;
+    background-color: var(--abu1);
+}
+#first-row{
+    height: 78px;
+}
+
+/* SIDEBAR KIRI BESERTA MENU */
+#logo-leftbar{
+    width: 100px;
+    height: auto;
+}
+#navbar{
+    display: flex;
+    flex-direction: column;
+}
+#navbar img{
+    width: 20px;
+    height: 20px;
+    margin-right: 5px;
+}
+#navbar .nav-link {
+    display: flex;
+    align-items: center;
+    color: white;
+    background: none;
+    border: none;
+    width: 100%;
+    padding: 5px;
+}
+#navbar .nav-link:hover {
+    background-color: var(--abu3);
+}
+#navbar .nav-link i {
+    margin-right: 5px;
+}
+#navbar #fourth-menu #btn-profil #text-btn span{
+    color: cyan;
+}
+#text-btn{
+    padding-left: 5%;
+}
+
+#hidden-menu{
+    display: none;
+}
+
+/* KONTEN UTAMA YANG MENAMPILKAN TULISAN PENGGUNA */
+#mid-bar{
+    overflow-y: scroll;
+    height: 100vh;
+    padding: 0;
+    background-color: var(--abu1);
+}
+#mid-bar::-webkit-scrollbar{
+    width: 0;
+}
+#mid-navbar h2{
+    width: 100%;
+}
+#primary-menu, #secondary-menu{
+    padding-top: 1%;
+}
+#primary-menu{
+    border-radius: 10px 10px 0 0;
+    background-color: var(--abu2);
+}
+#primary-menu span{
+    color: cyan;
+}
+#main-content-panel{
+    position: relative;
+    height: auto;
+    margin-bottom: 10px;
+    background-color:var(--abu2);
+}
+#profile-bar{
+    position: relative;
+    height: auto;
+    margin: 0;
+    padding: 20px 0;
+    background:transparent;
+}
+#h-username{
+    margin-bottom: 0;
+}
+#username{
+    margin: 0;
+}
+#description-bar{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: large;
+    font-weight: bold;
+    text-align: center;
+    width: 100%;
+    height: auto;
+    padding: 0 20px 0 20px;
+    background-color:var(--abu3);
+    z-index: 0;
+}
+#description-bar #read-btn{
+    width: 300px;
+    height: 50px;
+    color: white;
+    margin: 5%;
+    background-color: var(--abu1);
+    z-index: 0;
+}
+
+
+/* SIDEBAR KANAN MENAMPILKAN CATEGORY DAN TAGS */
+/* SEARCH BAR */
+.search-bar {
+    display: flex;
+    align-items: center;
+    width: auto;
+    border-radius: none;
+}
+.search-bar input {
+    min-width: 50px;
+    flex: 1;
+    padding: 5px;
+    border: none;
+    color: white;
+    background-color: var(--abu2);
+}
+#category, #tag{
+    font-size: 12px;
+}
+#category-bar, #tag-bar{
+    display: flex;
+    align-items: center;
+}
+#category-section #icon-btn img, #tag-section #icon-btn img{
+    width: 20px;
+    height: 20px;
+    margin-right: 5px;
+}
+#category-section #text-btn span, #tag-section #text-btn span{
+    font-size: 16px;
+}

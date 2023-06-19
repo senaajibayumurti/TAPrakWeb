@@ -1,0 +1,231 @@
+:root{
+    --abu1:#131313;
+    --abu2:#0a0a0a;
+    --abu3:#0a0a0a80;
+}
+/*MENGATUR LINK*/
+a:link{
+    color: white;
+}
+a:visited{
+    color: blue;
+    text-decoration:underline;
+}
+.link:hover{
+    color: cyan;
+    text-decoration:none;
+}
+.nav-link:hover{
+    color: cyan;
+}
+*{
+    font-family: 'bahnschrift';
+    color: white;
+}
+@font-face {
+    font-family:'bahnschrift';
+    src: url('Font/bahnschrift.ttf');
+}
+body {
+    background-color: var(--abu1);
+}
+#primary-panel{
+    background-color: var(--abu1);
+}
+#main-row{
+    background-color: var(--abu1);
+}
+
+/* MENGATUR KIRI DAN KANAN*/
+#left-bar, #right-bar {
+    position: sticky;
+    top: 0;
+    height: auto;
+    padding: 8px 10px;
+    background-color: var(--abu1);
+}
+#first-row{
+    height: 78px;
+}
+
+/* SIDEBAR KIRI BESERTA MENU */
+#logo-leftbar{
+    width: 100px;
+    height: auto;
+}
+#navbar{
+    display: flex;
+    flex-direction: column;
+}
+#navbar img{
+    width: 20px;
+    height: 20px;
+    margin-right: 5px;
+}
+#navbar .nav-link {
+    display: flex;
+    align-items: center;
+    color: white;
+    background: none;
+    border: none;
+    width: 100%;
+    padding: 5px;
+}
+#navbar .nav-link:hover {
+    background-color: var(--abu3);
+}
+#navbar .nav-link i {
+    margin-right: 5px;
+}
+#navbar #first-menu #btn-beranda #text-btn span{
+    color: cyan;
+}
+#text-btn{
+    padding-left: 5%;
+}
+
+#hidden-menu{
+    display: none;
+}
+
+/* KONTEN UTAMA YANG MENAMPILKAN TULISAN PENGGUNA */
+#mid-bar{
+    overflow-y: scroll;
+    height: 100vh;
+    padding: 0;
+    background-color: var(--abu1);
+}
+#mid-bar::-webkit-scrollbar{
+    width: 0;
+}
+#mid-navbar{
+    position: sticky;
+    top: 0;
+    padding: 8px 0 0;
+    height: 86px;
+    background-color: var(--abu1);
+    z-index: 2;
+}
+#mid-navbar h2{
+    width: 100%;
+}
+#primary-menu, #secondary-menu{
+    padding-top: 1%;
+}
+#primary-menu{
+    border-radius: 10px 10px 0 0;
+    background-color: var(--abu2);
+}
+#primary-menu span{
+    color: cyan;
+}
+#main-content-panel{
+    position: relative;
+    width: auto;
+    height: 600px;
+    margin-bottom: 10px;
+    background-color:var(--abu2);
+}
+#background-main-content-panel{
+    position: absolute;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+}
+#profile-bar{
+    position: relative;
+    height: auto;
+    margin: 0;
+    padding-top: 20px;
+    background:linear-gradient(to bottom, #0a0a0a, #0a0a0a80)
+}
+#h-title{
+    margin-bottom: 0;
+}
+#title-article{
+    margin: 0;
+}
+#synopsis-bar{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: large;
+    font-weight: bold;
+    text-align: center;
+    width: 100%;
+    height: auto;
+    padding: 0 100px 0 100px;
+    background-color:var(--abu3);
+    z-index: 0;
+}
+#synopsis-bar #read-btn{
+    width: 100px;
+    color: white;
+    background-color: var(--abu2);
+    z-index: 0;
+}
+#like-bar{
+    display: flex;
+    position: sticky;
+    bottom: 0;
+    padding: 0 8px;
+    margin: 0;
+    text-align: center;
+    width: 100%;
+    height: auto;
+    border-radius: 0;
+    background-color: var(--abu2);
+}
+#like-bar button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    width: 100%;
+    height: 50px;
+    background-color: var(--abu2);
+}
+#like-bar button img{
+    width: 20px;
+    height: 20px;
+    margin-right: 5px;
+}
+#like-bar button span {
+    font-size: 16px;
+}
+
+/* SIDEBAR KANAN MENAMPILKAN CATEGORY DAN TAGS */
+/* SEARCH BAR */
+.search-bar {
+    display: flex;
+    align-items: center;
+    width: auto;
+    border-radius: none;
+}
+.search-bar input {
+    min-width: 50px;
+    flex: 1;
+    padding: 5px;
+    border: none;
+    color: white;
+    background-color: var(--abu2);
+}
+#category, #tag{
+    font-size: 12px;
+}
+#category-bar, #tag-bar{
+    display: flex;
+    align-items: center;
+}
+#category-section #icon-btn img, #tag-section #icon-btn img{
+    width: 20px;
+    height: 20px;
+    margin-right: 5px;
+}
+#category-section #text-btn span, #tag-section #text-btn span{
+    font-size: 16px;
+}

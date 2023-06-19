@@ -1,0 +1,111 @@
+:root{
+    --abu1:#131313;
+    --abu2:#0a0a0a;
+    --abu3:#0a0a0a80;
+}
+@media (max-width: 1024px){
+    #synopsis-bar{
+        padding: 10px;
+    }
+}
+@media (max-width: 768px){
+    #synopsis-bar{
+        font-size: 15px;
+        padding: 20px;
+    }
+}
+@media (max-width: 767px){
+    /* SIDEBAR KIRI BESERTA MENU */
+    #left-bar{
+        padding: 8px 0 0;
+        z-index: 1;
+    }
+    #first-row{
+        margin: auto;
+        height: auto;
+    }
+    #logo-leftbar{
+        width: 50px;
+        height: auto;
+    }
+    #second-row{
+        display: flex;
+        flex-wrap: nowrap;
+    }
+    #navbar{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: space-between;
+        width: 100%;
+    }
+    #navbar li{
+        flex: 1;
+    }
+    #navbar #text-btn{
+        display: none;
+    }
+    #navbar .nav-link{
+        padding: 4px 0;
+    }
+    #navbar #btn-beranda{
+        border-radius: 10px 10px 0 0;
+        background-color: var(--abu2);
+    }
+    #navbar .nav-link div{
+        margin: auto;
+    }
+    #navbar img{
+        margin: auto;
+    }
+    #hidden-menu{
+        display:block;
+    }
+
+    /* KONTEN UTAMA YANG MENAMPILKAN TULISAN PENGGUNA */
+    #mid-navbar{
+        display: none;
+    }
+    #main-content-panel{
+        height: 400px;
+    }
+    #primary-menu, #secondary-menu{
+        width: 50%;
+    }
+    #synopsis-bar{
+        font-size: 15px;
+        padding: 20px;
+    }
+    #like-bar{
+        position: sticky;
+    }
+    #like-bar div{
+        width: 25%;
+        padding: 0;
+    }
+    #like-bar button{
+        padding: 0;
+    }
+
+    /* SIDEBAR KANAN MENAMPILKAN CATEGORY DAN TAGS */
+    #right-bar{
+        display: none;
+    }
+
+}
+@media (max-width: 425px){
+    #synopsis-bar{
+        font-size: 12px ;
+    }
+    #like-bar button{
+        justify-content: space-around;
+    }
+}
+@media (max-width: 280px){
+    #synopsis-bar{
+        font-size: 10px;
+    }
+    #like-bar button span{
+        font-size: 10px;
+    }
+}

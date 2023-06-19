@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>LYRA/postPage</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="profilePageCSS.css">
+    <link rel="stylesheet" type="text/css" href="profilePageMediaQueries.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+    <script src="utility.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+</head>
+<body>
+<!-- MEMBAGI HALAMAN MENJADI TIGA BAGIAN -->
+<div id="primary-panel" class="container-fluid">
+    <div id="secondary-panel" class="container">
+        <div id="main-row" class="row">
+
+            <!-- SIDEBAR KIRI BESERTA MENU -->
+            <div id="left-bar" class="col-md-2 sidebar">
+                <div id="first-row">
+                    <a href="#">
+                        <img id="logo-leftbar" src="Logo/LYRA Logotype.png">
+                    </a>
+                </div>
+                <div id="second-row">
+                    <ul id="navbar" class="nav">
+                        <li id="first-menu" class="nav-item">
+                            <button id="btn-beranda" class="nav-link" type="button" onclick="goToBeranda()">
+                                <div id="icon-btn">
+                                    <img src="Icon/u_home.png">
+                                </div>
+                                <div id="text-btn">
+                                    <span>Beranda</span>
+                                </div>
+                            </button>
+                        </li>
+                        <li id="second-menu" class="nav-item">
+                            <button id="btn-notifikasi" class="nav-link" onclick="alert('Maaf, fitur ini belum tersedia.')">
+                                <div id="icon-btn">
+                                    <img src="Icon/u_notif.png">
+                                </div>
+                                <div  id="text-btn">
+                                    <span>Notifikasi</span>
+                                </div>
+                            </button>
+                        </li>
+                        <li id="third-menu" class="nav-item">
+                            <button id="btn-tulis" class="nav-link" onclick="alert('Maaf, fitur ini belum tersedia.')">
+                                <div id="icon-btn">
+                                    <img src="Icon/u_pencil.png">
+                                </div>
+                                <div id="text-btn">
+                                    <span>Tulis</span>
+                                </div>
+                            </button>
+                        </li>
+                        <li id="hidden-menu" class="nav-item">
+                            <button id="btn-kategori" class="nav-link" onclick="alert('Maaf, fitur ini belum tersedia.')">
+                                <div id="icon-btn">
+                                    <img src="Icon/u_category.png">
+                                </div>
+                            </button>
+                        </li>
+                        <li id="hidden-menu" class="nav-item">
+                            <button id="btn-tag" class="nav-link" onclick="alert('Maaf, fitur ini belum tersedia.')">
+                                <div id="icon-btn">
+                                    <img src="Icon/u_tag.png">
+                                </div>
+                            </button>
+                        </li>
+                        <li id="fourth-menu" class="nav-item">
+                            <button id="btn-profil" class="nav-link">
+                                <div id="icon-btn">
+                                    <img src="Icon/c_profile.png">
+                                </div>
+                                <div id="text-btn">
+                                    <span>Profil</span>
+                                </div>
+                            </button>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- KONTEN UTAMA YANG MENAMPILKAN TULISAN PENGGUNA -->
+            <div id="mid-bar" class="col-md-10 content">
+                <!-- KONTEN UTAMA -->
+                    <div id='main-content-panel' class='card border-0'>
+                    <div id='profile-bar' class='card-title text-center'>
+                        <h3 id='h-username'>
+                            <p id='username'>
+                                Akun Guest
+                            </p>
+                        </h3>
+                        <p id='date-join'>
+                                Anda perlu log in untuk set-up profile
+                        </p>
+                    </div>
+                    <div id='description-bar' class='card-body'>
+                        <button id='read-btn' class="btn btn-block" onclick="alert('Maaf, fitur ini belum tersedia.')">
+                            LOG IN
+                        </button>
+                    </div>                      
+                </div>
+                <!-- KONTEN UTAMA -->
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>

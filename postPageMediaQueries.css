@@ -1,0 +1,98 @@
+:root{
+    --abu1:#131313;
+    --abu2:#0a0a0a;
+    --abu3:#0a0a0a80;
+}
+@media (max-width: 767px){
+    /* SIDEBAR KIRI BESERTA MENU */
+    #left-bar{
+        padding: 8px 0 0;
+        z-index: 1;
+    }
+    #first-row{
+        margin: auto;
+        height: auto;
+    }
+    #logo-leftbar{
+        width: 50px;
+        height: auto;
+    }
+    #second-row{
+        display: flex;
+        flex-wrap: nowrap;
+    }
+    #navbar{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: space-between;
+        width: 100%;
+    }
+    #navbar li{
+        flex: 1;
+    }
+    #navbar #text-btn{
+        display: none;
+    }
+    #navbar .nav-link{
+        padding: 4px 0;
+    }
+    #navbar #btn-beranda{
+        border-radius: 10px 10px 0 0;
+        background-color: var(--abu2);
+    }
+    #navbar .nav-link div{
+        margin: auto;
+    }
+    #navbar img{
+        margin: auto;
+    }
+    #hidden-menu{
+        display:block;
+    }
+
+    /* KONTEN UTAMA YANG MENAMPILKAN TULISAN PENGGUNA */
+    #mid-navbar{
+        display: none;
+    }
+    #main-content-panel{
+        height: auto;
+    }
+    #profile-bar{
+        position: relative;
+    }
+    #content-bar{
+        font-size: 11px;
+        height: auto;
+        padding: 20px;
+    }
+    #like-bar div{
+        width: 25%;
+        padding: 0;
+    }
+    #like-bar button{
+        padding: 0;
+    }
+
+    /* SIDEBAR KANAN MENAMPILKAN CATEGORY DAN TAGS */
+    #right-bar{
+        display: none;
+    }
+
+}
+@media (max-width: 375px){
+    #content-bar{
+        font-size: 15px;
+    }
+    #like-bar button{
+        justify-content: space-around;
+    }
+}
+@media (max-width: 280px){
+    #content-bar{
+        font-size: 11px;
+    }
+    #like-bar button span{
+        font-size: 10px;
+    }
+}
