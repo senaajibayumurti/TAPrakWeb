@@ -6,4 +6,4 @@
 >
 >Lyra logotype
 
-Adalah sebuah website untuk para penulis di luar sana, baik pemula maupun profesional.
+Adalah sebuah website untuk para penulis di luar sana, baik pemula maupun profesional. Setiap karya sastra tulis dibagikan kepada semua pengguna LYRA dengan harapan meningkatkan minat baca ke semua orang. Setiap pengguna bisa merespon setiap karya dengan menekan tombol Like, berkomentar pada kolom Comment, membagikan literatur dengan fitur Share ataupun menyimpan tulisan di dalam Bookmark masing-masing. Di sini lah kalian bisa memulai untuk menulis.
