@@ -7,6 +7,9 @@
 a:link{
     color: white;
 }
+a:visited{
+    color: white;
+}
 .link:hover{
     color: cyan;
     text-decoration: none;
@@ -148,12 +151,6 @@ body {
     height: auto;
     padding: 0 20px 0 20px;
     background-color:var(--abu3);
-    z-index: 0;
-}
-#content-bar #read-btn{
-    width: 100px;
-    color: white;
-    background-color: var(--abu2);
     z-index: 0;
 }
 #like-bar{

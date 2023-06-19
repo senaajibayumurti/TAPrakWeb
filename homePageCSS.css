@@ -8,8 +8,7 @@ a:link{
     color: white;
 }
 a:visited{
-    color: blue;
-    text-decoration:underline;
+    color: white;
 }
 .link:hover{
     color: cyan;
@@ -175,8 +174,8 @@ body {
 }
 #synopsis-bar #read-btn{
     width: 100px;
-    color: white;
-    background-color: var(--abu2);
+    color: var(--abu1);
+    background-color: cyan;
     z-index: 0;
 }
 #like-bar{
