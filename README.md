@@ -25,13 +25,13 @@ Menanggapi klien untuk diciptakannya website LYRA, warna utama sebagai identitas
   - Font yang kamu pilih adalah Bahnschrift. Font mainstream, namun kami pilih karena desainnya yang sederhana dan mudah dibaca namun masih memeliki estetika tidak terlihat begitu standar. Font ini juga merupakan font dasar yang digunakan untuk mendesain logo.
 - Warna
   - Sebagaimana yang sudah disebutkan sebelumnya warna utama adalah cyan `#00ffff`, kemudian putih `#ffffff` serta tiga warna lain yang menjadi dasar warna layout secara keseluruhan:
-```css
-:root{
---abu1:#131313;
---abu2:#0a0a0a;
---abu3:#0a0a0a80;
-}
-```
+> ```css
+> :root{
+> --abu1:#131313;
+> --abu2:#0a0a0a;
+> --abu3:#0a0a0a80;
+> }
+> ```
 - Layout
   - Layout pada dasarnya tidak terlalu banyak visualisasi yang cukup ilustratif bertujuan agar pengguna tidak terlalu terganggu dengan tampilan website sehingga bisa fokus dan nyaman dalam membaca.
   - Layout pada halaman utama atau "Beranda" dibagi menjadi tiga bagian utama yaitu ada `left-bar`, `mid-bar`, dan `right-bar`. 
