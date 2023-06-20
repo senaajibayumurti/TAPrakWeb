@@ -81,7 +81,7 @@ Mengacu pada "Klasifikasi pembagian layar media query" media query yang mengatur
 > ```
 > Klasifikasi media query layar lebih lebar
 
-Pada tampilan website yang lebih kecil, bar utilitas `right-bar` disembunyikan, untuk itu menu "Category" dan "Tag" ditaruh bersama dengan menu lainnya pada `left-bar` yang ditaruh di atas `mid-bar`. Pada awalnya, merujuk ke file `homePageCSS.css` dan file css dengan format nama `(section)CSS.css` lainnya,terdapat <div> dengan id "hidden-menu" yang akan ditampilkan hanya untuk tampilan layar lebih kecil atau smartphone.
+Pada tampilan website yang lebih kecil, bar utilitas `right-bar` disembunyikan, untuk itu menu "Category" dan "Tag" ditaruh bersama dengan menu lainnya pada `left-bar` yang ditaruh di atas `mid-bar`. Pada awalnya, merujuk ke file `homePageCSS.css` dan file css dengan format nama `(section)CSS.css` lainnya, terdapat tag div dengan id "hidden-menu" yang akan ditampilkan hanya untuk tampilan layar lebih kecil atau smartphone.
 > ```css
 >     #hidden-menu{
 >         display:block;
