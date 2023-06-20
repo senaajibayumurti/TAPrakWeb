@@ -18,7 +18,7 @@ Menanggapi klien untuk diciptakannya website LYRA, warna utama sebagai identitas
   - Logo berupa logotype sederhana dengan modifikasi kecil pada huruf "L" dan "Y". Merujuk pada gambar 'Lyra logotype' bisa dilihat bahwa spasi diantara kedua huruf tersebut membentuk siluet buku yang setengah terbuka atau laptop yang setengah terbuka tergantung interpretasi masing-masing individu. Ini mengisyaratkan di masa serba digital ini bahwa membaca tidak hanya melalui buku yang terlalu pakem, bahan bacaan bisa di dapat dari mana saja namun buku tetaplah penting sebagai sumber utama ilmu pengetahuan.
   - Warna logo menyesuaikan dengan identitas brand yaitu cyan. Warna yang cukup terang dan mencolok, serta cukup kontras dengan tampilan produk secara keseluruhan yaitu abu-abu gelap.
 - Font
->![Capture](https://github.com/senaajibayumurti/UASPPW1_22-505018-SV-21751_LYRA-Literary-Realm/assets/110106706/a74ebfba-0328-4b82-ac3b-2ed3273757a0)
+> <img src="https://github.com/senaajibayumurti/UASPPW1_22-505018-SV-21751_LYRA-Literary-Realm/assets/110106706/a74ebfba-0328-4b82-ac3b-2ed3273757a0" width="100px">
 >
 >Font Bahnschrift
 
@@ -38,13 +38,13 @@ Menanggapi klien untuk diciptakannya website LYRA, warna utama sebagai identitas
 - Layout
   - Layout pada dasarnya tidak terlalu banyak visualisasi yang cukup ilustratif bertujuan agar pengguna tidak terlalu terganggu dengan tampilan website sehingga bisa fokus dan nyaman dalam membaca.
   - Layout pada halaman utama atau "Beranda" dibagi menjadi tiga bagian utama yaitu ada `left-bar`, `mid-bar`, dan `right-bar`. 
->![Web capture_20-6-2023_12538_localhost](https://github.com/senaajibayumurti/UASPPW1_22-505018-SV-21751_LYRA-Literary-Realm/assets/110106706/7220de96-1152-4869-9111-17e17c84aac8)
+><img src="https://github.com/senaajibayumurti/UASPPW1_22-505018-SV-21751_LYRA-Literary-Realm/assets/110106706/7220de96-1152-4869-9111-17e17c84aac8" width="600px">
 >
 >Halaman utama
 
   - `left-bar` merupakan side bar berisikan tombol-tombol navigasi berbagai menu beserta penempatan logo.
   - `mid-bar` sebagai bagian tengah halaman merupakan bagian utama untuk menampilkan "feed" berisikan semua unggahan para pengguna. Penempatan "feed" yang berada di tengah bertujuan menyesuaikan fokus utama mata pengguna dalam melihat layar
->![LYRA_postPage](https://github.com/senaajibayumurti/UASPPW1_22-505018-SV-21751_LYRA-Literary-Realm/assets/110106706/17849daf-d6ff-4540-b757-e1904b7444d1)
+><img src="https://github.com/senaajibayumurti/UASPPW1_22-505018-SV-21751_LYRA-Literary-Realm/assets/110106706/17849daf-d6ff-4540-b757-e1904b7444d1" width="600px">
 >
 >Tampilan profil dan postingan
 
@@ -93,7 +93,7 @@ Pada tampilan website yang lebih kecil, bar utilitas `right-bar` disembunyikan, 
 > 
 > Desain ulang tampilan untuk layar lebih kecil
 
-> ![Web capture_20-6-2023_92445_localhost](https://github.com/senaajibayumurti/UASPPW1_22-505018-SV-21751_LYRA-Literary-Realm/assets/110106706/4b87d004-856d-46a0-903b-aba80a8ba69c)
+> <img src="https://github.com/senaajibayumurti/UASPPW1_22-505018-SV-21751_LYRA-Literary-Realm/assets/110106706/4b87d004-856d-46a0-903b-aba80a8ba69c" width="600px">
 > 
 > Tampilan untuk layar smartphone
 
