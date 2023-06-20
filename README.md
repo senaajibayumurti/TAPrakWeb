@@ -18,11 +18,11 @@ Menanggapi klien untuk diciptakannya website LYRA, warna utama sebagai identitas
   - Logo berupa logotype sederhana dengan modifikasi kecil pada huruf "L" dan "Y". Merujuk pada gambar 'Lyra logotype' bisa dilihat bahwa spasi diantara kedua huruf tersebut membentuk siluet buku yang setengah terbuka atau laptop yang setengah terbuka tergantung interpretasi masing-masing individu. Ini mengisyaratkan di masa serba digital ini bahwa membaca tidak hanya melalui buku yang terlalu pakem, bahan bacaan bisa di dapat dari mana saja namun buku tetaplah penting sebagai sumber utama ilmu pengetahuan.
   - Warna logo menyesuaikan dengan identitas brand yaitu cyan. Warna yang cukup terang dan mencolok, serta cukup kontras dengan tampilan produk secara keseluruhan yaitu abu-abu gelap.
 - Font
+  - Font yang kami pilih adalah Bahnschrift. Font mainstream, namun kami pilih karena desainnya yang sederhana dan mudah dibaca namun masih memeliki estetika tidak terlihat begitu standar. Font ini juga merupakan font dasar yang digunakan untuk mendesain logo.
 > <img src="https://github.com/senaajibayumurti/UASPPW1_22-505018-SV-21751_LYRA-Literary-Realm/assets/110106706/a74ebfba-0328-4b82-ac3b-2ed3273757a0" width="100px">
 >
 >Font Bahnschrift
 
-  - Font yang kamu pilih adalah Bahnschrift. Font mainstream, namun kami pilih karena desainnya yang sederhana dan mudah dibaca namun masih memeliki estetika tidak terlihat begitu standar. Font ini juga merupakan font dasar yang digunakan untuk mendesain logo.
 - Warna
   - Sebagaimana yang sudah disebutkan sebelumnya warna utama adalah cyan `#00ffff`, kemudian putih `#ffffff` serta tiga warna lain yang menjadi dasar warna layout secara keseluruhan:
 > ```css
