@@ -118,7 +118,7 @@ Usaha kami untuk memenuhi prinsip desain *constraints* adalah dengan menggunakan
 > ```javascript
 > function redirectToOtherPage() {
 >     alert('Anda perlu log in.');
->     window.location.href = 'profilePage.html'; // Ganti dengan URL halaman lain yang diinginkan
+>     window.location.href = 'profilePage.html';
 > }
 > ```
 > 
