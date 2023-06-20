@@ -65,6 +65,7 @@ Desain responsif yang kami lakukan pada dasarnya tediri dari dua desain, desain 
 > 
 > Klasifikasi pembagian layar media query
 
+Media query yang mengatur saat layar
 ## DIRECT FEEDBACK
 - Klik "BACA" mengarahkan pengguna ke laman baru
 - Berbagai tombol dan fitur yang belum bisa kemduian alert
