@@ -2,7 +2,7 @@
 ### Sena Aji Bayu Murti
 
 # LYRA - Literary Realm
->![LYRA Logotype](https://github.com/senaajibayumurti/UASPPW1_22-505018-SV-21751_LYRA-Literary-Realm/assets/110106706/aff748b4-c2e2-45cf-8063-ebcff050f16e)
+> <img src="https://github.com/senaajibayumurti/UASPPW1_22-505018-SV-21751_LYRA-Literary-Realm/assets/110106706/aff748b4-c2e2-45cf-8063-ebcff050f16e" width= 100px>
 >
 >Lyra logotype
 
@@ -95,7 +95,8 @@ Pada tampilan website yang lebih kecil, bar utilitas `right-bar` disembunyikan, 
 
 > ![Web capture_20-6-2023_92445_localhost](https://github.com/senaajibayumurti/UASPPW1_22-505018-SV-21751_LYRA-Literary-Realm/assets/110106706/4b87d004-856d-46a0-903b-aba80a8ba69c)
 > 
-> Tampilan untuk layar samrtphone
+> Tampilan untuk layar smartphone
+
 
 ## DIRECT FEEDBACK
 - Klik "BACA" mengarahkan pengguna ke laman baru
