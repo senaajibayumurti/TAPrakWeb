@@ -53,7 +53,7 @@ Menanggapi klien untuk diciptakannya website LYRA, warna utama sebagai identitas
 ## WEBSITE RESPONSIVE
 Target pengguna website ini adalah semua umur, dengan begitu jangkauan pasar yang luas diperlukan dengan menargetkan pengguna layar yang besar seperti Laptop, kemudian Tablet, dan Smartphone. Untuk itu desain website yang responsif diperlukan. 
 
-Desain responsif yang kami lakukan pada dasarnya tediri dari dua desain, desain pertama untuk layar lebar seperti tablet dan laptop serta desain kedua untuk layar yang lebih kecil untuk smartphone.
+Desain responsif yang kami lakukan pada dasarnya tediri dari dua desain, desain pertama untuk layar yang lebih lebar seperti tablet dan laptop serta desain kedua untuk layar yang lebih kecil untuk smartphone.
 
 > ```css
 > @media (max-width: 1024px){}
@@ -65,7 +65,9 @@ Desain responsif yang kami lakukan pada dasarnya tediri dari dua desain, desain 
 > 
 > Klasifikasi pembagian layar media query
 
-Media query yang mengatur saat layar
+Mengacu pada "Klasifikasi pembagian layar media query" media query yang mengatur layar yang lebih lebar adalah media query baris pertama dan kedua, tampilannya masih menampilkan ketiga layout utama. Kemudian untuk klasifikasi pada media query baris ketiga, keempat, dan kelima adalah untuk menyesuaikan untuk layar smartphone. 
+
+Pada tampilan website yang lebih kecil
 ## DIRECT FEEDBACK
 - Klik "BACA" mengarahkan pengguna ke laman baru
 - Berbagai tombol dan fitur yang belum bisa kemduian alert
