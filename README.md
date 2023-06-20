@@ -1,4 +1,4 @@
-## UASPPW1_22-505018-SV-21751_LYRA-Literary-Realm
+# UASPPW1_22-505018-SV-21751_LYRA-Literary-Realm
 ### Sena Aji Bayu Murti
 
 # LYRA - Literary Realm
