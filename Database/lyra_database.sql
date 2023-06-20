@@ -25,6 +25,7 @@ DELIMITER $$
 --
 -- Functions
 --
+<<<<<<< HEAD
 CREATE DEFINER=`root`@`localhost` FUNCTION `function_total_comment` (`post_id` INT) RETURNS INT(11) DETERMINISTIC BEGIN
     DECLARE comment_count INT;
     
@@ -43,6 +44,26 @@ CREATE DEFINER=`root`@`localhost` FUNCTION `function_total_like` (`post_id` INT)
     WHERE id_post = post_id;
     
     RETURN like_count;
+=======
+CREATE DEFINER=`root`@`localhost` FUNCTION `function_total_comment` (`post_id` INT) RETURNS INT(11) DETERMINISTIC BEGIN
+    DECLARE comment_count INT;
+    
+    SELECT COUNT(*) INTO comment_count
+    FROM comment_table
+    WHERE id_post = post_id;
+    
+    RETURN comment_count;
+END$$
+
+CREATE DEFINER=`root`@`localhost` FUNCTION `function_total_like` (`post_id` INT) RETURNS INT(11) DETERMINISTIC BEGIN
+    DECLARE like_count INT;
+    
+    SELECT COUNT(*) INTO like_count
+    FROM like_table
+    WHERE id_post = post_id;
+    
+    RETURN like_count;
+>>>>>>> 6eb8b466c3bb4dbed751b130e1a18e2c6781f5d5
 END$$
 
 DELIMITER ;
@@ -88,8 +109,13 @@ CREATE TABLE `comment_table` (
 -- Triggers `comment_table`
 --
 DELIMITER $$
+<<<<<<< HEAD
 CREATE TRIGGER `trg_generate_date_comment` BEFORE INSERT ON `comment_table` FOR EACH ROW BEGIN
     SET NEW.date_comment = CURDATE();
+=======
+CREATE TRIGGER `trg_generate_date_comment` BEFORE INSERT ON `comment_table` FOR EACH ROW BEGIN
+    SET NEW.date_comment = CURDATE();
+>>>>>>> 6eb8b466c3bb4dbed751b130e1a18e2c6781f5d5
 END
 $$
 DELIMITER ;
@@ -133,12 +159,18 @@ INSERT INTO `like_table` (`id_like`, `id_user`, `id_post`, `date_like`) VALUES
 -- Triggers `like_table`
 --
 DELIMITER $$
+<<<<<<< HEAD
 CREATE TRIGGER `trg_generate_date_like` BEFORE INSERT ON `like_table` FOR EACH ROW BEGIN
     SET NEW.date_like = CURDATE();
+=======
+CREATE TRIGGER `trg_generate_date_like` BEFORE INSERT ON `like_table` FOR EACH ROW BEGIN
+    SET NEW.date_like = CURDATE();
+>>>>>>> 6eb8b466c3bb4dbed751b130e1a18e2c6781f5d5
 END
 $$
 DELIMITER ;
 DELIMITER $$
+<<<<<<< HEAD
 CREATE TRIGGER `trg_prevent_duplicate_like` BEFORE INSERT ON `like_table` FOR EACH ROW BEGIN
     DECLARE duplicate_count INT;
 
@@ -149,6 +181,18 @@ CREATE TRIGGER `trg_prevent_duplicate_like` BEFORE INSERT ON `like_table` FOR EA
     IF duplicate_count > 0 THEN
         SIGNAL SQLSTATE '45000' SET MESSAGE_TEXT = 'Data dengan id_user dan id_post yang sama sudah ada.';
     END IF;
+=======
+CREATE TRIGGER `trg_prevent_duplicate_like` BEFORE INSERT ON `like_table` FOR EACH ROW BEGIN
+    DECLARE duplicate_count INT;
+
+    SELECT COUNT(*) INTO duplicate_count
+    FROM like_table
+    WHERE id_user = NEW.id_user AND id_post = NEW.id_post;
+
+    IF duplicate_count > 0 THEN
+        SIGNAL SQLSTATE '45000' SET MESSAGE_TEXT = 'Data dengan id_user dan id_post yang sama sudah ada.';
+    END IF;
+>>>>>>> 6eb8b466c3bb4dbed751b130e1a18e2c6781f5d5
 END
 $$
 DELIMITER ;
@@ -194,8 +238,13 @@ INSERT INTO `post_table` (`id_post`, `id_user`, `id_tag`, `id_category`, `title_
 -- Triggers `post_table`
 --
 DELIMITER $$
+<<<<<<< HEAD
 CREATE TRIGGER `trg_generate_date_post` BEFORE INSERT ON `post_table` FOR EACH ROW BEGIN
     SET NEW.date_post = CURDATE();
+=======
+CREATE TRIGGER `trg_generate_date_post` BEFORE INSERT ON `post_table` FOR EACH ROW BEGIN
+    SET NEW.date_post = CURDATE();
+>>>>>>> 6eb8b466c3bb4dbed751b130e1a18e2c6781f5d5
 END
 $$
 DELIMITER ;
@@ -266,8 +315,13 @@ INSERT INTO `user_table` (`id_user`, `name_user`, `email_user`, `password_user`,
 -- Triggers `user_table`
 --
 DELIMITER $$
+<<<<<<< HEAD
 CREATE TRIGGER `trg_generate_date_join` BEFORE INSERT ON `user_table` FOR EACH ROW BEGIN
     SET NEW.date_join_user = CURDATE();
+=======
+CREATE TRIGGER `trg_generate_date_join` BEFORE INSERT ON `user_table` FOR EACH ROW BEGIN
+    SET NEW.date_join_user = CURDATE();
+>>>>>>> 6eb8b466c3bb4dbed751b130e1a18e2c6781f5d5
 END
 $$
 DELIMITER ;
