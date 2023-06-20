@@ -93,8 +93,9 @@ Pada tampilan website yang lebih kecil, bar utilitas `right-bar` disembunyikan, 
 > 
 > Desain ulang tampilan untuk layar lebih kecil
 
-> <img src="https://github.com/senaajibayumurti/UASPPW1_22-505018-SV-21751_LYRA-Literary-Realm/assets/110106706/4b87d004-856d-46a0-903b-aba80a8ba69c" width="600px">
-> <img src="https://github.com/senaajibayumurti/UASPPW1_22-505018-SV-21751_LYRA-Literary-Realm/assets/110106706/672aecc4-1e5a-4633-a3c0-23e23e93c026" width="600px">
+> <img src="https://github.com/senaajibayumurti/UASPPW1_22-505018-SV-21751_LYRA-Literary-Realm/assets/110106706/4b87d004-856d-46a0-903b-aba80a8ba69c" width="300px">
+> <img src="https://github.com/senaajibayumurti/UASPPW1_22-505018-SV-21751_LYRA-Literary-Realm/assets/110106706/672aecc4-1e5a-4633-a3c0-23e23e93c026" width="300px">
+> 
 > Tampilan untuk layar smartphone
 
 
