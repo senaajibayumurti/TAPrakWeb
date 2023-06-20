@@ -100,7 +100,10 @@ Pada tampilan website yang lebih kecil, bar utilitas `right-bar` disembunyikan, 
 
 ## PENYESUAIAN DENGAN PRINSIP DESAIN
 ### Visibility
-Seperti yang sudah dijelaskan sebelumnya, kombinasi warna yang kontras dengan warna dasar kombinasi abu-abu gelap dan putih yang kontras memudahkan pengguna dalam membaca dan memberi kenyamanan untuk mata dalam membaca dengan durasi yang lama. Kemudian warna identitas produk yaitu cyan digunakan
+Seperti yang sudah dijelaskan sebelumnya, kombinasi warna yang kontras dengan warna dasar kombinasi abu-abu gelap dan putih yang kontras memudahkan pengguna dalam membaca dan memberi kenyamanan untuk mata dalam membaca dengan durasi yang lama. Kemudian warna identitas produk yaitu cyan digunakan sebagai warna ilustratif. Seperti pada menu "Beranda" beserta ikonnya yang berwarna cyan saat pengguna melihat halaman "Beranda". Kemudian ada tombol "BACA" dengan warna cyan yang mempermudah visualiasi pengguna untuk membaca lebih lanjut.
+> <img src="![image](https://github.com/senaajibayumurti/UASPPW1_22-505018-SV-21751_LYRA-Literary-Realm/assets/110106706/79b93d08-3177-48c3-8d56-9a4dacc9151a)
+">
+
 ## DIRECT FEEDBACK
 Klik "BACA" mengarahkan pengguna ke laman baru
 Berbagai tombol dan fitur yang belum bisa kemduian alert
