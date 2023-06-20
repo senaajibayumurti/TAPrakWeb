@@ -7,7 +7,7 @@
 >Lyra logotype
 
 Adalah sebuah website untuk para penulis di luar sana, baik pemula maupun profesional. Setiap karya sastra tulis dibagikan kepada semua pengguna LYRA dengan harapan meningkatkan minat baca ke semua orang. Setiap pengguna bisa merespon setiap karya dengan menekan tombol "Like", berkomentar pada kolom "Comment", membagikan literatur dengan fitur "Share" ataupun menyimpan tulisan di dalam "Bookmark" masing-masing. Di sini lah kalian bisa memulai untuk menulis.
->![LYRA_homePage](https://github.com/senaajibayumurti/UASPPW1_22-505018-SV-21751_LYRA-Literary-Realm/assets/110106706/af77bbfb-effb-4ffc-b3d7-9444d1d3c91c)
+><img src="https://github.com/senaajibayumurti/UASPPW1_22-505018-SV-21751_LYRA-Literary-Realm/assets/110106706/af77bbfb-effb-4ffc-b3d7-9444d1d3c91c" width="600px">
 >
 >Preview LYRA
 
