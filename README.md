@@ -137,6 +137,7 @@ Menjaga konsistensi artstyle tampilan website bisa membuat pengguna nyaman mengg
 > <img src="https://github.com/senaajibayumurti/UASPPW1_22-505018-SV-21751_LYRA-Literary-Realm/assets/110106706/8ee16a97-cf8c-4e54-9174-2a5cff2cd848" width="50px">
 > <img src="https://github.com/senaajibayumurti/UASPPW1_22-505018-SV-21751_LYRA-Literary-Realm/assets/110106706/42e89d64-0c87-4862-81d1-bd8d4a067879" width="50px">
 > <img src="https://github.com/senaajibayumurti/UASPPW1_22-505018-SV-21751_LYRA-Literary-Realm/assets/110106706/40913c67-f758-43c0-a4ad-928f326e359c" width="50px">
+> 
 > Icon dasar yang digunakan
 
 ## WEBSITE DINAMIS
