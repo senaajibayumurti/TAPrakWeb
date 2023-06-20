@@ -51,6 +51,19 @@ Menanggapi klien untuk diciptakannya website LYRA, warna utama sebagai identitas
   - `right-bar` merupakan bar utilitas yang hanya muncul untuk halaman utama atau "Beranda". Berisi menu "Category" dan "Tag" dengan opsi di dalamnya untuk memfilter konten yang ada di "Beranda". Merujuk pada gif 'Tampilan profil dan postingan' pada tampilan profil pengguna dan postingan bisa dilihat bahwa `right-bar` dihilangkan.
 
 ## WEBSITE RESPONSIVE
+Target pengguna website ini adalah semua umur, dengan begitu jangkauan pasar yang luas diperlukan dengan menargetkan pengguna layar yang besar seperti Laptop, kemudian Tablet, dan Smartphone. Untuk itu desain website yang responsif diperlukan. 
+
+Desain responsif yang kami lakukan pada dasarnya tediri dari dua desain, desain pertama untuk layar lebar seperti tablet dan laptop serta desain kedua untuk layar yang lebih kecil untuk smartphone.
+
+> ```css
+> @media (max-width: 1024px){}
+> @media (max-width: 768px){}
+> @media (max-width: 767px){}
+> @media (max-width: 375px){}
+> @media (max-width: 280px){}
+> ```
+> 
+> Klasifikasi pembagian layar media query
 
 ## DIRECT FEEDBACK
 - Klik "BACA" mengarahkan pengguna ke laman baru
