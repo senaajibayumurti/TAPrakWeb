@@ -65,7 +65,20 @@ Desain responsif yang kami lakukan pada dasarnya tediri dari dua desain, desain 
 > 
 > Klasifikasi pembagian layar media query
 
-Mengacu pada "Klasifikasi pembagian layar media query" media query yang mengatur layar yang lebih lebar adalah media query baris pertama dan kedua, tampilannya masih menampilkan ketiga layout utama. Kemudian untuk klasifikasi pada media query baris ketiga, keempat, dan kelima adalah untuk menyesuaikan untuk layar smartphone. 
+Mengacu pada "Klasifikasi pembagian layar media query" media query yang mengatur layar yang lebih lebar adalah media query baris pertama dan kedua, tampilannya masih menampilkan ketiga layout utama. Kemudian untuk klasifikasi pada media query baris ketiga, keempat, dan kelima adalah untuk menyesuaikan untuk layar smartphone.
+> ```css
+> @media (max-width: 1024px){
+>     #synopsis-bar{
+>         padding: 10px;
+>     }
+> }
+> @media (max-width: 768px){
+>     #synopsis-bar{
+>         font-size: 15px;
+>         padding: 20px;
+>     }
+> }
+> ```
 
 Pada tampilan website yang lebih kecil
 ## DIRECT FEEDBACK
