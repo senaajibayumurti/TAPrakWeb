@@ -51,6 +51,7 @@ Menanggapi klien untuk diciptakannya website LYRA, warna utama sebagai identitas
   - `right-bar` merupakan bar utilitas yang hanya muncul untuk halaman utama atau "Beranda". Berisi menu "Category" dan "Tag" dengan opsi di dalamnya untuk memfilter konten yang ada di "Beranda". Merujuk pada gif 'Tampilan profil dan postingan' pada tampilan profil pengguna dan postingan bisa dilihat bahwa `right-bar` dihilangkan.
 
 ## WEBSITE RESPONSIVE
+
 ## DIRECT FEEDBACK
 - Klik "BACA" mengarahkan pengguna ke laman baru
 - Berbagai tombol dan fitur yang belum bisa kemduian alert
