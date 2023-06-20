@@ -32,6 +32,9 @@ Menanggapi klien untuk diciptakannya website LYRA, warna utama sebagai identitas
 > --abu3:#0a0a0a80;
 > }
 > ```
+> 
+> Opsi warna
+
 - Layout
   - Layout pada dasarnya tidak terlalu banyak visualisasi yang cukup ilustratif bertujuan agar pengguna tidak terlalu terganggu dengan tampilan website sehingga bisa fokus dan nyaman dalam membaca.
   - Layout pada halaman utama atau "Beranda" dibagi menjadi tiga bagian utama yaitu ada `left-bar`, `mid-bar`, dan `right-bar`. 
