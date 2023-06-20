@@ -153,9 +153,9 @@
                     </div>
                     <div id='like-bar' class='card-footer row justify-content-center'>
                         <div class='col-md-3'>
-                            <button>
+                            <button onclick=\"redirectToOtherPage()\">
                                 <div>
-                                    <img id='icon' src='Icon/u_like.png' onclick=\"alert('Anda perlu log in.')\">
+                                    <img id='icon' src='Icon/u_like.png'>
                                 </div>
                                 <div id='text-btn'>
                                     <span class='like-count'>
@@ -165,9 +165,9 @@
                             </button>
                         </div>
                         <div class='col-md-3'>
-                            <button>
+                            <button onclick=\"redirectToOtherPage()\">
                                 <div>
-                                    <img id='icon' src='Icon/u_comment.png' onclick=\"alert('Anda perlu log in.')\">
+                                    <img id='icon' src='Icon/u_comment.png'>
                                 </div>
                                 <div id='text-btn'>
                                     <span class='comment-count'>
@@ -177,9 +177,9 @@
                             </button>
                         </div>
                         <div class='col-md-3'>
-                            <button>
+                            <button onclick=\"redirectToOtherPage()\">
                                 <div>
-                                    <img id='icon' src='Icon/u_share.png' onclick=\"alert('Anda perlu log in.')\">
+                                    <img id='icon' src='Icon/u_share.png'>
                                 </div>
                                 <div id='text-btn'>
                                     <span class='share-count'>2</span>
@@ -187,9 +187,9 @@
                             </button>
                         </div>
                         <div class='col-md-3'>
-                            <button>
+                            <button onclick=\"redirectToOtherPage()\">
                                 <div>
-                                    <img id='icon' src='Icon/u_bookmark.png' onclick=\"alert('Anda perlu log in.')\">
+                                    <img id='icon' src='Icon/u_bookmark.png'>
                                 </div>
                             </button>
                         </div>

@@ -164,7 +164,7 @@
                         </div>
                         <div id='like-bar' class='card-footer row justify-content-center'>
                             <div class='col-md-3'>
-                                <button onclick=\"alert('Anda perlu log in.')\">
+                                <button onclick=\"redirectToOtherPage()\">
                                     <div>
                                         <img id='icon' src='Icon/u_like.png'>
                                     </div>
@@ -176,7 +176,7 @@
                                 </button>
                             </div>
                             <div class='col-md-3'>
-                                <button onclick=\"alert('Anda perlu log in.')\">
+                                <button onclick=\"redirectToOtherPage()\">
                                     <div>
                                         <img id='icon' src='Icon/u_comment.png'>
                                     </div>
@@ -188,7 +188,7 @@
                                 </button>
                             </div>
                             <div class='col-md-3'>
-                                <button onclick=\"alert('Anda perlu log in.')\">
+                                <button onclick=\"redirectToOtherPage()\">
                                     <div>
                                         <img id='icon' src='Icon/u_share.png'>
                                     </div>
@@ -198,7 +198,7 @@
                                 </button>
                             </div>
                             <div class='col-md-3'>
-                                <button onclick=\"alert('Anda perlu log in.')\">
+                                <button onclick=\"redirectToOtherPage()\">
                                     <div>
                                         <img id='icon' src='Icon/u_bookmark.png'>
                                     </div>

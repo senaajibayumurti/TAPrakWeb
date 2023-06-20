@@ -4,6 +4,10 @@ function goToPostPage(){
 function goToProfilePage(){
     window.location.href = "http://localhost/TAPrakWeb/profilePage.html"
 }
+function redirectToOtherPage() {
+    alert('Anda perlu log in.');
+    window.location.href = 'profilePage.html'; // Ganti dengan URL halaman lain yang diinginkan
+}
 
 function goToBeranda(){
     window.location.href = "http://localhost/TAPrakWeb/homePage.php"
