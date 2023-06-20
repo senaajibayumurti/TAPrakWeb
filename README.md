@@ -101,11 +101,31 @@ Pada tampilan website yang lebih kecil, bar utilitas `right-bar` disembunyikan, 
 ## PENYESUAIAN DENGAN PRINSIP DESAIN
 ### Visibility
 Seperti yang sudah dijelaskan sebelumnya, kombinasi warna yang kontras dengan warna dasar kombinasi abu-abu gelap dan putih yang kontras memudahkan pengguna dalam membaca dan memberi kenyamanan untuk mata dalam membaca dengan durasi yang lama. Kemudian warna identitas produk yaitu cyan digunakan sebagai warna ilustratif. Seperti pada menu "Beranda" beserta ikonnya yang berwarna cyan saat pengguna melihat halaman "Beranda". Kemudian ada tombol "BACA" dengan warna cyan yang mempermudah visualiasi pengguna untuk membaca lebih lanjut.
-> <img src="![image](https://github.com/senaajibayumurti/UASPPW1_22-505018-SV-21751_LYRA-Literary-Realm/assets/110106706/79b93d08-3177-48c3-8d56-9a4dacc9151a)
-">
+> <img src="https://github.com/senaajibayumurti/UASPPW1_22-505018-SV-21751_LYRA-Literary-Realm/assets/110106706/79b93d08-3177-48c3-8d56-9a4dacc9151a" width="300px">
+> <img src="https://github.com/senaajibayumurti/UASPPW1_22-505018-SV-21751_LYRA-Literary-Realm/assets/110106706/da9ec8c7-4c3c-416f-a04d-6c6b1a39a1a2" width="300px">
+>
+> Tampilan menu "Beranda" dan tombol "BACA"
 
-## DIRECT FEEDBACK
+### Feedback
 Klik "BACA" mengarahkan pengguna ke laman baru
 Berbagai tombol dan fitur yang belum bisa kemduian alert
+
+### Constraints
+Usaha kami untuk memenuhi prinsip desain *constraints* adalah dengan menggunakan fungsi alert. Setiap pengguna ingin menyukai suatu postingan atau menyimpannya ke "Bookmark" dan mereka belum log in ke LYRA, akan ditampilkan alert "Anda perlu log in." 
+> ```php
+> onclick=\"redirectToOtherPage()\"
+> ```
+> ```javascript
+> function redirectToOtherPage() {
+>     alert('Anda perlu log in.');
+>     window.location.href = 'profilePage.html'; // Ganti dengan URL halaman lain yang diinginkan
+> }
+> ```
+> 
+> Fungsi alert untuk mengarahkan pengguna agar segera log in.
+
+### Consistency
+
+### Affordance
 ## WEBSITER DINAMIS
 
