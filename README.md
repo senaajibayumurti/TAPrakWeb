@@ -125,7 +125,120 @@ Usaha kami untuk memenuhi prinsip desain *constraints* adalah dengan menggunakan
 > Fungsi alert untuk mengarahkan pengguna agar segera log in.
 
 ### Consistency
+Menjaga konsistensi artstyle tampilan website bisa membuat pengguna nyaman menggunakan website. Untuk itu kami membagi tampilan website menjadi tiga bar seperti yang sudah dijelaskan pada bab "DESAIN". Kemudian konsistensi desain ikon dengan gaya full-block agar visualisai jelas dan ilustratif. 
+> <img src="https://github.com/senaajibayumurti/UASPPW1_22-505018-SV-21751_LYRA-Literary-Realm/assets/110106706/6616b778-ff2e-4490-97e2-a19a44b5c820" width="50px">
+> <img src="https://github.com/senaajibayumurti/UASPPW1_22-505018-SV-21751_LYRA-Literary-Realm/assets/110106706/ed9c9838-b1dc-4c0c-b349-965471316e1c" width="50px">
+> <img src="https://github.com/senaajibayumurti/UASPPW1_22-505018-SV-21751_LYRA-Literary-Realm/assets/110106706/38b71034-931f-44e7-81cd-bbd6840c212b" width="50px">
+> <img src="https://github.com/senaajibayumurti/UASPPW1_22-505018-SV-21751_LYRA-Literary-Realm/assets/110106706/c9ae5985-774a-4beb-a15e-9697b72c929b" width="50px">
+> <img src="https://github.com/senaajibayumurti/UASPPW1_22-505018-SV-21751_LYRA-Literary-Realm/assets/110106706/1090582a-9465-4b81-952e-1368837289c9" width="50px">
+> <img src="https://github.com/senaajibayumurti/UASPPW1_22-505018-SV-21751_LYRA-Literary-Realm/assets/110106706/2f0888ff-8c58-41ae-98bb-1c90f2f832d9" width="50px">
+> <img src="https://github.com/senaajibayumurti/UASPPW1_22-505018-SV-21751_LYRA-Literary-Realm/assets/110106706/473afa64-35de-48b5-88c5-96ecc26cbaa6" width="50px">
+> <img src="https://github.com/senaajibayumurti/UASPPW1_22-505018-SV-21751_LYRA-Literary-Realm/assets/110106706/7bfa401c-017d-4b57-ba59-44b0163d21d9" width="50px">
+> <img src="https://github.com/senaajibayumurti/UASPPW1_22-505018-SV-21751_LYRA-Literary-Realm/assets/110106706/8ee16a97-cf8c-4e54-9174-2a5cff2cd848" width="50px">
+> <img src="https://github.com/senaajibayumurti/UASPPW1_22-505018-SV-21751_LYRA-Literary-Realm/assets/110106706/42e89d64-0c87-4862-81d1-bd8d4a067879" width="50px">
+> <img src="https://github.com/senaajibayumurti/UASPPW1_22-505018-SV-21751_LYRA-Literary-Realm/assets/110106706/40913c67-f758-43c0-a4ad-928f326e359c" width="50px">
 
 ### Affordance
-## WEBSITER DINAMIS
+Penerpan prinsip 
 
+## WEBSITE DINAMIS
+Di dalam `mid-bar` terdapat php yang menampilkan semua konten dari tabel `post-table` dari database `lyra_database`. Melakukan iterasi untuk menampilkan semua baris pada tabel `post-table` yang kemudian isi datanya didistribusikan ke setiap tag yang sesuai.
+> ```php
+> <!-- KONTEN UTAMA -->
+>                 <?php
+>                 include 'connection.php';
+> 
+>                 $post_table = mysqli_query($conn, "SELECT * FROM post_table");
+>                 $user_table = mysqli_query($conn, "SELECT * FROM user_table");
+>                 $user_by_id_post = "SELECT post_table.id_post, user_table.name_user FROM post_table INNER JOIN user_table ON post_table.id_user = user_table.id_user";
+>                 $user_by_id_post_result = mysqli_query($conn, $user_by_id_post);
+>                 $user_names = array();
+>                 if (mysqli_num_rows($user_by_id_post_result) > 0) {
+>                     while ($name_user = mysqli_fetch_assoc($user_by_id_post_result)) {
+>                         $user_names[$name_user['id_post']] = $name_user['name_user'];
+>                     }
+>                 }
+>                 
+>                 foreach ($post_table as $post){
+>                     $id_post = $post['id_post'];
+>                 
+>                     $function_total_like = mysqli_query($conn, "SELECT function_total_like($id_post) AS total_like");
+>                     $total_like = mysqli_fetch_assoc($function_total_like)['total_like'];
+>                 
+>                     $function_total_comment = mysqli_query($conn, "SELECT function_total_comment($id_post) AS total_like");
+>                     $total_comment = mysqli_fetch_assoc($function_total_comment)['total_like'];
+>                     echo 
+>                     "<div id='main-content-panel' class='card border-0'>
+>                         <img id='background-main-content-panel' src='data:image/png;base64,".base64_encode($post['image_post'])."'>
+>                         <div id='profile-bar' class='card-title text-center'>
+>                             <h3 id='h-title'>
+>                                 <p id='title-article'>
+>                                     ".$post['title_post']."
+>                                 </p>
+>                             </h3>
+>                             <p id='date-article'>
+>                                 ".$post['date_post']."
+>                             </p>
+>                             <a class='link' href='#'>
+>                                 ".$user_names[$id_post]."
+>                             </a>
+>                         </div>
+>                         <div id='synopsis-bar' class='card-body'>
+>                             <p id='synopsis'>
+>                                 ".$post['synopsis_post']."
+>                             </p>
+>                             <button id='read-btn' class='btn btn-block' type='button' onclick=\"location.href='postPage.php?data-id=".$id_post."'\">BACA</button>
+>                         </div>
+>                         <div id='like-bar' class='card-footer row justify-content-center'>
+>                             <div class='col-md-3'>
+>                                 <button onclick=\"redirectToOtherPage()\">
+>                                     <div>
+>                                         <img id='icon' src='Icon/u_like.png'>
+>                                     </div>
+>                                     <div id='text-btn'>
+>                                         <span class='like-count'>
+>                                             ".$total_like."
+>                                         </span>
+>                                     </div>
+>                                 </button>
+>                             </div>
+>                             <div class='col-md-3'>
+>                                 <button onclick=\"redirectToOtherPage()\">
+>                                     <div>
+>                                         <img id='icon' src='Icon/u_comment.png'>
+>                                     </div>
+>                                     <div id='text-btn'>
+>                                         <span class='comment-count'>
+>                                             ".$total_comment."
+>                                         </span>
+>                                     </div>
+>                                 </button>
+>                             </div>
+>                             <div class='col-md-3'>
+>                                 <button onclick=\"redirectToOtherPage()\">
+>                                     <div>
+>                                         <img id='icon' src='Icon/u_share.png'>
+>                                     </div>
+>                                     <div id='text-btn'>
+>                                         <span class='share-count'>2</span>
+>                                     </div>
+>                                 </button>
+>                             </div>
+>                             <div class='col-md-3'>
+>                                 <button onclick=\"redirectToOtherPage()\">
+>                                     <div>
+>                                         <img id='icon' src='Icon/u_bookmark.png'>
+>                                     </div>
+>                                 </button>
+>                             </div>
+>                         </div>                      
+>                     </div>
+>                     ";
+>                 }
+>                 ?>
+>                 <!-- KONTEN UTAMA -->
+> ```
+>
+> PHP untuk menampilkan konten
+
+PHP yang lain bisa dilihat pada file `postPageCSS.css` dan `profilePage.html`.
