@@ -98,9 +98,11 @@ Pada tampilan website yang lebih kecil, bar utilitas `right-bar` disembunyikan, 
 > 
 > Tampilan untuk layar smartphone
 
-
+## PENYESUAIAN DENGAN PRINSIP DESAIN
+# Visibility
+Seperti yang sudah dijelaskan sebelumnya, kombinasi warna yang kontras dengan warna dasar kombinasi abu-abu gelap dan putih yang kontras memudahkan pengguna dalam membaca dan memberi kenyamanan untuk mata dalam membaca dengan durasi yang lama. Kemudian warna identitas produk yaitu cyan digunakan
 ## DIRECT FEEDBACK
-- Klik "BACA" mengarahkan pengguna ke laman baru
-- Berbagai tombol dan fitur yang belum bisa kemduian alert
+Klik "BACA" mengarahkan pengguna ke laman baru
+Berbagai tombol dan fitur yang belum bisa kemduian alert
 ## WEBSITER DINAMIS
 
